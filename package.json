@@ -1,0 +1,27 @@
+{
+    "name": "jsae",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js",
+    "type": "commonjs",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node ."
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.17.1",
+        "helmet": "^3.18.0",
+        "node": "^19.8.1",
+        "socket.io": "^2.2.0",
+        "uuid": "^3.3.2"
+    },
+    "devDependencies": {
+        "babel-loader": "^9.1.2",
+        "typescript": "^5.0.3",
+        "webpack": "^5.77.0",
+        "webpack-cli": "^5.0.1"
+    }
+}
